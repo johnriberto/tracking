@@ -1,0 +1,28 @@
+nav {
+	.navbar-brand {
+		padding: 8px;
+	}
+}
+
+.status-bar {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 20px;
+	background: $color-nav-bar;
+	display: none;
+	z-index: 150;
+}
+
+body.standalone {
+	padding-top: 70px !important;
+
+	nav {
+		top: 20px !important;
+	}
+
+	.status-bar {
+		display: block !important;
+	}
+}

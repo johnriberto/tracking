@@ -1,0 +1,9 @@
+/tmp/build_2a34fbd60a137be49acad839da31fbef/sendgrid-eventkit-rails-c483ab4/vendor/ruby-2.2.4/bin/ruby -r ./siteconf20170822-221-hn98b2.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+make "DESTDIR=" install

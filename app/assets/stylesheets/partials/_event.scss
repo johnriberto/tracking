@@ -1,0 +1,37 @@
+.related-events {
+	span.list-group-item {
+		cursor: pointer;
+	}
+
+	span.list-group-item:hover {
+		background: #EFEFEF;
+		cursor: pointer;
+	}
+
+	span.active {
+		background: #EEEEEE !important;
+		border-color: #DDDDDD !important;
+		color: black;
+		cursor: auto !important;
+
+		small {
+			display: block !important;
+			float: right;
+		}
+	}
+
+	h3 {
+		font-size: 18px;
+		margin: 0px;
+	}
+
+	p {
+		font-size: 10px; 
+		margin: 0px; 
+		color: #AAA;
+	}
+}
+
+#event-info-body {
+	overflow-y: auto;
+}

@@ -1,0 +1,15 @@
+/tmp/build_2a34fbd60a137be49acad839da31fbef/sendgrid-eventkit-rails-c483ab4/vendor/ruby-2.2.4/bin/ruby -r ./siteconf20170822-221-1ru192.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling wrapper.c
+compiling crypt_blowfish.c
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_gensalt.c
+linking shared-object bcrypt_ext.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20170822-221-r77gwe
